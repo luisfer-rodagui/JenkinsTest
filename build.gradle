@@ -34,7 +34,7 @@ plugins {
 }
 
 task sayHello << {
-  println 'Hello, world!'
+  println 'Hello, world! :D'
 }
 
 task anotherTask << {
