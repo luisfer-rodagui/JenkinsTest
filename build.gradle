@@ -38,7 +38,7 @@ task sayHello << {
 }
 
 task anotherTask << {
-  println 'This is another task'
+  println 'This is dependency task ;)'
 }
 
 sayHello.dependsOn anotherTask
